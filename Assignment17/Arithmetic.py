@@ -1,0 +1,14 @@
+def addition(no1,no2):
+    return no1 + no2
+
+
+def substraction(no1,no2):
+    return no1 - no2
+
+
+def multiplication(no1,no2):
+    return no1 * no2
+
+
+def division(no1,no2):
+    return no1 / no2
