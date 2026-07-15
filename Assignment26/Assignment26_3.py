@@ -19,8 +19,12 @@ class Arithmetic:
         return self.no1 * self.no2
 
     def Division(self):
-        return self.no1 / self.no2
+        try:
+            return self.no1 / self.no2
+        except ZeroDivisionError as zobj:
+            print("\nException occured due to Second operand is zero : ",zobj)
 
+        
 obj = Arithmetic()
 obj.Accept()
 
